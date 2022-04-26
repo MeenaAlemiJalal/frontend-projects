@@ -93,4 +93,24 @@ section.features-section {
 ul.features-list {
   margin: 0;
   padding-left: 1em;
+}
+ul.features-list li {
+  font-size: 1.1em;
+  margin-left: 2em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  position: relative;
+}
+ul.features-list li:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: -2em;
+  background-image: url(../images/bullet.svg);
+  background-size: contain;
+}
+
+.features-section img {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
