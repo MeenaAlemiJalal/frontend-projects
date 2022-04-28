@@ -117,6 +117,7 @@ ul.features-list li:before {
 
 .testimonials-section {
   background: var(--primary-color);
+  color: white;
 }
 .testimonials-section li {
   background: #006BD6;
