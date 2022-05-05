@@ -22,6 +22,9 @@ body {
 .navbar .logo span {
   color: var(--primary-color);
 }
+.navbar nav {
+  display: none;
+}
 .navbar .container {
   display: flex;
   justify-content: space-between;
@@ -196,4 +199,10 @@ nav li a {
 }
 nav li a:hover {
   font-weight: bold;
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: 0.5em;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
