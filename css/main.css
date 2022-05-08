@@ -205,4 +205,10 @@ nav li a:hover {
   float: right;
   margin: 0.5em;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
