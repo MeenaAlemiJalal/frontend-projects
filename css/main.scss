@@ -18,7 +18,8 @@ body{
     font-weight:bold;
     color: black;
     font-size: 1.2em;
-
+    display: flex;
+    align-items: center;
     span {
       color:var(--primary-color)
     }
@@ -286,3 +287,48 @@ h2 {
 
   }
 }
+ @media only screen and (min-width: 1080px){
+
+  .container{
+    width: 1080px;
+    margin: 0 auto;
+  }
+
+  section {
+    padding: 10em 4em;
+  }
+
+  .hero .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+    .left-col{
+      margin: 3rem 3em 0 5em;
+
+      h1{
+        width:90%;
+        font-size: 3em;
+
+      }
+    }
+  }
+
+  .hero-img {
+     
+    width: 30%;
+    margin-right: 8em;
+  }
+
+  .hero-cta {
+    display: flex;
+
+  }
+  
+  .primary-cta {
+    margin-right: 1em;
+  }
+ }
+ 
+   
+ 
