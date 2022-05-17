@@ -305,4 +305,10 @@ nav li a:hover {
     width: 350px;
     bottom: -2em;
   }
+  .testimonials-section ul {
+    display: flex;
+  }
+  .testimonials-section ul li {
+    margin: 0 1em;
+  }
 }/*# sourceMappingURL=main.css.map */
